@@ -1,5 +1,10 @@
 # Chat-server-in-C
-A simple chat server in C using Threads
+A SIMPLE CHAT SERVER IN C USING THREAD
+------------------------------------------
+                                               
+                                               
+                                               
+                                               
 BEFORE COMPILING THE PROGRAM
 ------------------------------
 1.Make sure that the server IP is correct in the client.c program
