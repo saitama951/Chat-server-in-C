@@ -3,8 +3,9 @@
 #include "string.h"
 #include "stdio.h"
 #include "arpa/inet.h"
+#include "stdlib.h"
 
-main()
+int main()
 {
 
 	int sid, status, n = 1;
@@ -20,7 +21,7 @@ main()
 	q.sin_port = 8080;
 
 	//IP of the server
-	q.sin_addr.s_addr = inet_addr("192.168.1.5");
+	q.sin_addr.s_addr = inet_addr("192.168.29.6");
 	status = connect(sid, (struct sockaddr *)&q, len);
 
 	//if fails to connect to the server

@@ -1,3 +1,3 @@
 target: server.c client.c
-	gcc -lpthread server.c -o server
-	gcc client.c -o client
+	gcc -lpthread server.c -o server.out
+	gcc client.c -o client.out
